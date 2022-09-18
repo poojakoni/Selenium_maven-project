@@ -24,7 +24,7 @@ public class simplilearnlogin extends baseclass {
 		
 	
 	LoginPage lp =new LoginPage(driver);
-	lp.Login("abc@xyz.com","abc@123");
+	lp.Login("abc@xyz.com","Abcd@123");
 	
 	//Step6: Validate the error message on screen
 	WebElement Error = driver.findElement(By.id("msg_box"));
@@ -44,7 +44,7 @@ public class simplilearnlogin extends baseclass {
 		test.log(LogStatus.INFO, "Test2 Started");
 		
 		LoginPage lp =new LoginPage(driver);
-		lp.Login("abc@xyz.com","abc@1234");
+		lp.Login("abc@xyz.com","ABCD@123");
 		
 		}
 	

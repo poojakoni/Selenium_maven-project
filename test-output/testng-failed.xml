@@ -3,14 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="uname" value="abc@xyz.com"/>
-    <parameter name="pwd" value="abc@1234"/>
+    <parameter name="pwd" value="ABCD@123"/>
     <classes>
       <class name="Test_case.simplilearnlogin">
         <methods>
-          <include name="Test2" invocation-numbers="0"/>
           <include name="DataSetUp"/>
           <include name="SetUp"/>
-          <include name="Test3"/>
           <include name="TearDown"/>
           <include name="Test1"/>
           <include name="dataClean"/>

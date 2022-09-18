@@ -14,7 +14,7 @@ public class LoginPage {
 	@FindBy(name = "user_login")
 	WebElement UserName;
 	
-	@FindBy(id = "pass")
+	@FindBy(id = "password")
 	WebElement Password;
 	
 	@FindBy(className = "rememberMe")

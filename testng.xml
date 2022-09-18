@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <parameter name="uname" value="abc@xyz.com"/>
-    <parameter name="pwd" value="abc@1234"/>
+    <parameter name="pwd" value="ABCD@123"/>
     <classes>
      
       <class name="Test_case.simplilearnlogin"/>
