@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Test_case.homeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.899 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.951 sec
